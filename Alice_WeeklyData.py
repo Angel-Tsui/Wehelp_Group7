@@ -1,6 +1,6 @@
 from flask import *
 from flask import Blueprint
-
+import requests
 import os
 from dotenv import load_dotenv
 load_dotenv()
