@@ -1,0 +1,28 @@
+.content__weatherDetail{
+	border: 1px solid red;
+	width: 50%;
+    height: 100vh;
+}
+
+.content__weatherDetail--overview{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 6px #d015da;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.overview__img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    flex: 30%;
+}
+
+.overview__info{
+    flex: 60%;
+}
